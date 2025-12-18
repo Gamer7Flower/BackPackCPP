@@ -40,6 +40,7 @@ struct FItem_Struct : public FTableRowBase  // 标记，在蓝图中创建DataTa
 	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	EItem_Type Item_Type;  // 物品类型
 };
+
 UCLASS()
 class BACKPACK_CPP_API UMyBaseGameInstance : public UGameInstance
 {
@@ -47,4 +48,7 @@ class BACKPACK_CPP_API UMyBaseGameInstance : public UGameInstance
 public:
 	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	TArray<FItem_Struct> BackPack_Array;  // 游戏实例中的背包物品，可全局保存和使用
+    
 };
+
+
