@@ -1,6 +1,6 @@
 # BackPackCPP
 简易UEC++背包系统
-
+(由于Git原因，项目无法正常运行，大家自己看代码即可)
 说明：
 1、解压目标目录不能有中文，不然会编译失败！！！
 2、在打开文件前，右键.uproject选择Generate Visual Studio project files，编译完成后双击.urpoject文件选择重新构建等待构建完成后即可运行。
